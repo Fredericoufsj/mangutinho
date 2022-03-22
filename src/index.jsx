@@ -4,7 +4,8 @@ import Home from './Pages/Home/Home';
 import Contatos from './Pages/Contatos/Contatos';
 import Cadastro from './Pages/Cadastro/Cadastro';
 import Admin from './Pages/Admin/index';
-import { BrowserRouter as Router, Route, Routes} from 'react-router-dom'
+import QuemSomos from './Pages/QuemSomos/QuemSomos';
+import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 
 
 
@@ -17,6 +18,7 @@ ReactDOM.render(
     <Route path='/Contatos' element={<Contatos/>}></Route>
     <Route path='/Cadastro' element={<Cadastro/>}></Route>
     <Route path='/Admin' element={<Admin/>}></Route>
+    <Route path='/QuemSomos' element={<QuemSomos/>}></Route>
   </Routes>
 </Router>
 
