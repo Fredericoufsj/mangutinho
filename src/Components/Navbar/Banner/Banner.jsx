@@ -3,7 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import './Banner.css';
-import Logo from '../../../Assets/img/logo-mangut.png';
+import Logo from '../../../assets/img/logo-mangut.png';
 
 export default () => {
     return (

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../../../assets/css/styles.min.css";
+import "../../assets/css/styles.min.css";
 import './Main.css';
 
 // eslint-disable-next-line import/no-anonymous-default-export
