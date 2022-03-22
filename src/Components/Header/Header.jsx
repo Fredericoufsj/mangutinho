@@ -1,11 +1,30 @@
 import React from 'react';
-import './Header.css';
 import { Link } from 'react-router-dom';
 
-// eslint-disable-next-line import/no-anonymous-default-export
+import './Header.css';
+import Side from '../Navbar/Side/Side';
+import Banner from '../Navbar/Banner/Banner';
+
 export default () => {
     return (
+        <header>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col">
+                        <Side></Side>
+                    </div>
+                </div>
+                <Banner></Banner>
+            </div>
+            <div class="website-logo d-none d-sm-block"></div>
+        </header>
+    )
+}
 
+// eslint-disable-next-line import/no-anonymous-default-export
+/*
+export default () => {
+    return (
         <header>
             <nav className="navbar navbar-expand-lg navbar-dark nav-cor">
                 <div className="container-fluid">
@@ -45,4 +64,4 @@ export default () => {
         </header>
 
     )
-};
+};*/
