@@ -5,7 +5,7 @@ import './Main.css';
 
 export default props => {
     return(
-        <nav class="navbar main-menu navbar-dark navbar-expand-md sticky-top bg-primary text-center" id="MainMenu">
+        <nav class="navbar main-menu navbar-dark navbar-expand-md sticky-top text-center" id="MainMenu">
             <div class="container-fluid">
                 <Link class="navbar-brand d-md-none justify-content-xxl-start" to="/">
                     <svg 
